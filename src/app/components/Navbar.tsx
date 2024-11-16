@@ -13,8 +13,6 @@ const Navbar = () => {
 
   const ref = useClickOutside(() => setOpened(false));
 
-  console.log("useRef", ref);
-
   const handleClick = () => {
     setOpened(!opened);
   };
@@ -43,8 +41,8 @@ const Navbar = () => {
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />

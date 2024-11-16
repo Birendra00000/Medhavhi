@@ -1,7 +1,7 @@
 /* Responsive Container */
 .responsiveContainer {
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   padding: 10px;
   display: flex;
   position: fixed;
@@ -9,14 +9,24 @@
   z-index: 1000;
   justify-content: center;
   background-color: white;
+  height: 60px; /* Explicit height */
 }
 
 .navbar_container {
-  width: 88%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  padding: 0 20px;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    padding: 0 56px;
+  }
+
+  @media (min-width: 900px) {
+    padding: 0 92px;
+  }
 }
 
 .LoginInBottom {
@@ -43,11 +53,12 @@
 
 .openNavbarContainer {
   display: flex;
+
   width: 100vw;
-  position: absolute;
-  left: -10%;
-  top: -26%;
-  height: 100vh;
+  height: 100vh; /* Ensure fullscreen menu */
+  position: fixed; /* Changed from absolute */
+  top: 0; /* Corrected from -26% */
+  left: 0; /* Corrected from -10% */
   background-color: #12131391;
   /* background-color: #0b0b0b00; */
 }
