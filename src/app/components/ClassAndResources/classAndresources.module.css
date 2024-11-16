@@ -1,0 +1,235 @@
+.HomeMainFlexWrapper {
+  width: 100%;
+  padding-top: 130px;
+}
+
+.HomeMainFlexContainer {
+  padding: 0 20px;
+
+  @media (min-width: 900px) {
+    padding: 0 56px;
+  }
+
+  @media (min-width: 900px) {
+    padding: 0 92px;
+  }
+}
+.homeRootTextBlue {
+  color: #27aaf1;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 15px;
+  margin: 0;
+
+  @media (min-width: 900px) {
+    font-size: 1.125rem;
+  }
+}
+.HomeClassAndResourceFlex {
+  width: 100%;
+  padding: 0 10px;
+  @media (min-width: 900px) {
+    width: 50%;
+  }
+}
+
+.heroFirstSection {
+  flex-direction: column;
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+}
+
+.homeAlgorithpara {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.485rem;
+  letter-spacing: 0.0225rem;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: #686b74;
+  @media (min-width: 900px) {
+    font-size: 1.125rem;
+  }
+}
+
+.homeTextRootSecondPara {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  border-top: 2px solid rgba(3, 10, 26, 0.15);
+  margin: 0;
+  padding-bottom: 14px;
+  padding-top: 21px;
+  @media (min-width: 900px) {
+    font-size: 1rem;
+  }
+}
+
+.homeRootAlgorithName {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 28px;
+  margin-bottom: 4px;
+  @media (min-width: 900px) {
+    font-size: 20px;
+  }
+}
+.homeAlgorithCollegeName {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16.24px;
+  color: #686b74;
+  margin: 0;
+  @media (min-width: 900px) {
+    font-size: 14px;
+  }
+}
+
+.home_Resources_Wrap {
+  gap: 0.5rem;
+  @media (min-width: 900px) {
+    font-size: 0.75rem;
+  }
+}
+
+.homeResource_700 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22.4px;
+  margin: 0;
+  @media (min-width: 900px) {
+    font-size: 16px;
+  }
+}
+.homeResource_500 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #686b74;
+  @media (min-width: 900px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* Ensure custom properties are defined globally or locally */
+
+/* Container for the progress bar */
+.progressBar {
+  position: relative;
+  height: var(--progress-size); /* Default size for progress bar */
+  border-radius: var(--progress-radius);
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  /* Define your CSS for the transition */
+  transition: width 50000ms ease-in-out; /* Smooth transition for width */
+}
+
+.progressSection {
+  outline-offset: -2px;
+  transition: width 5s linear; /* Adjust speed here */
+}
+
+.Resources1 {
+  width: 310px;
+  height: 75px;
+  animation: slideIn 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+.Resources2 {
+  width: 312px;
+  height: auto;
+  animation: slideIn2 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.progressBar {
+  position: relative;
+  height: var(--progress-size); /* Default size for progress bar */
+  border-radius: var(--progress-radius);
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  /* Define your CSS for the transition */
+  transition: width 50000ms ease-in-out; /* Smooth transition for width */
+}
+
+.progressSection {
+  outline-offset: -2px;
+  transition: width 5s linear; /* Adjust speed here */
+}
+
+.Resources1 {
+  width: 310px;
+  height: 75px;
+  animation: slideIn 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+.Resources2 {
+  width: 312px;
+  height: auto;
+  animation: slideIn2 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.homeFirstChild {
+  width: 100%;
+  gap: 30px;
+
+  @media (min-width: 900px) {
+    width: 33%;
+    justify-content: space-between;
+  }
+}
+.secondContWrapper {
+  height: 420px;
+  width: 420px;
+  border-radius: 16px;
+  background-color: #f8f8f8;
+}
+.routineImgWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

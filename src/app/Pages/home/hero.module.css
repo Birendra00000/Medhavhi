@@ -1,0 +1,541 @@
+.HomeMainFlexWrapper {
+  width: 100%;
+  padding-top: 130px;
+}
+
+.HomeMainFlexContainer {
+  padding: 0 20px;
+  width: 100%;
+
+  @media (min-width: 900px) {
+    padding: 0 56px;
+  }
+
+  @media (min-width: 900px) {
+    padding: 0 92px;
+  }
+}
+.homeMainFlex {
+  width: 100%;
+  gap: 30px;
+  flex-direction: column;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+    gap: 30px;
+
+    justify-content: space-between;
+  }
+}
+.homeWidthHalf {
+  width: 100%;
+  padding-right: 56px;
+  @media (min-width: 900px) {
+    width: 50%;
+    padding-right: 0;
+  }
+}
+
+.homeTitle {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 36px;
+  @media (min-width: 640px) {
+    font-size: 42px;
+  }
+  @media (min-width: 900px) {
+    line-height: 64px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 52px;
+  }
+}
+.homeExplained {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #686b74;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  @media (min-width: 900px) {
+    font-size: 18px;
+    line-height: 23.76px;
+  }
+}
+
+.home_hero_Available {
+  color: #686b74;
+  margin: 0;
+  font-size: 18px;
+
+  @media (min-width: 900px) {
+    font-size: 16px;
+  }
+}
+
+.button2 {
+  box-shadow: 0 -2px 36px 0 rgba(52, 87, 140, 0.12);
+}
+.button1,
+.button2 {
+  font-size: 14px; /* Default font size */
+  font-weight: 400;
+  width: 120px;
+}
+.paradata {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.24px;
+}
+.appstoreImg {
+  width: 16px;
+  height: 16px;
+}
+
+.homePhotoHead {
+  width: 100%;
+  @media (min-width: 900px) {
+    width: 50%;
+  }
+}
+.androidSmall {
+  width: 150px;
+  display: none;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+  max-height: 408px;
+  height: 320px;
+  box-shadow: 0 -2px 36px 0 rgba(52, 87, 140, 0.12);
+  @media (min-width: 900px) {
+    display: inline;
+  }
+}
+.desktophalf {
+  text-align: start;
+  width: 100%;
+  box-shadow: 0 -2px 36px 0 rgba(52, 87, 140, 0.12);
+  object-fit: contain;
+  max-height: 408px;
+  height: 320px;
+}
+.secondContWrapper {
+  height: 420px;
+  width: 420px;
+  border-radius: 16px;
+  background-color: #f8f8f8;
+}
+
+.homeMainFlexRoot {
+  padding: 10px;
+  gap: 30px;
+  flex-direction: column-reverse;
+
+  @media (min-width: 900px) {
+    padding: 0;
+    flex-direction: row;
+    gap: 120px;
+  }
+}
+
+.homeFirstChild {
+  width: 100%;
+  gap: 30px;
+
+  @media (min-width: 900px) {
+    width: 33%;
+    justify-content: space-between;
+  }
+}
+
+.homeFlexRootSecondChild {
+  width: 100%;
+
+  @media (min-width: 900px) {
+    width: 67%;
+    justify-content: space-between;
+    padding: 92 0;
+  }
+}
+
+.Routine1 {
+  width: 310px;
+  height: 75px;
+  animation: slideIn 1s ease-in-out forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.Routine2 {
+  width: 312px;
+  height: auto;
+  animation: slideIn2 1s ease-in-out forwards;
+}
+@keyframes slideIn2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.routineImgWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.homeRootTextBlue {
+  color: #27aaf1;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 15px;
+  margin: 0;
+
+  @media (min-width: 900px) {
+    font-size: 1.125rem;
+  }
+}
+
+.homeAlgorithTitle {
+  font-size: 24px;
+  line-height: 30px;
+
+  font-weight: 700;
+  @media (min-width: 600px) {
+    font-size: 36px;
+    line-height: 43.56px;
+    letter-spacing: -1%;
+  }
+}
+
+/* CLASS AND RESOURCES MANAGEMENT */
+
+/* .homeMarginX {
+} */
+
+.HomeClassAndResourceFlex {
+  width: 100%;
+  padding: 0 10px;
+  @media (min-width: 900px) {
+    width: 50%;
+  }
+}
+
+.heroFirstSection {
+  flex-direction: column;
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+}
+
+.homeAlgorithpara {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.485rem;
+  letter-spacing: 0.0225rem;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: #686b74;
+  @media (min-width: 900px) {
+    font-size: 1.125rem;
+  }
+}
+
+.homeTextRootSecondPara {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  border-top: 2px solid rgba(3, 10, 26, 0.15);
+  margin: 0;
+  padding-bottom: 14px;
+  padding-top: 21px;
+  @media (min-width: 900px) {
+    font-size: 1rem;
+  }
+}
+
+.homeRootAlgorithName {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 28px;
+  margin-bottom: 4px;
+  @media (min-width: 900px) {
+    font-size: 20px;
+  }
+}
+.homeAlgorithCollegeName {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16.24px;
+  color: #686b74;
+  margin: 0;
+  @media (min-width: 900px) {
+    font-size: 14px;
+  }
+}
+
+.home_Resources_Wrap {
+  gap: 0.5rem;
+  @media (min-width: 900px) {
+    font-size: 0.75rem;
+  }
+}
+
+.homeResource_700 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22.4px;
+  margin: 0;
+  @media (min-width: 900px) {
+    font-size: 16px;
+  }
+}
+.homeResource_500 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #686b74;
+  @media (min-width: 900px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* Ensure custom properties are defined globally or locally */
+
+/* Container for the progress bar */
+.progressBar {
+  position: relative;
+  height: var(--progress-size); /* Default size for progress bar */
+  border-radius: var(--progress-radius);
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  /* Define your CSS for the transition */
+  transition: width 50000ms ease-in-out; /* Smooth transition for width */
+}
+
+.progressSection {
+  outline-offset: -2px;
+  transition: width 5s linear; /* Adjust speed here */
+}
+
+.Resources1 {
+  width: 310px;
+  height: 75px;
+  animation: slideIn 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+.Resources2 {
+  width: 312px;
+  height: auto;
+  animation: slideIn2 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Connected Learning and Community Engagement */
+.connected_and_learing_MarginX {
+  width: 100%;
+  padding: 10px 0;
+  @media (min-width: 900px) {
+    width: 60%;
+    padding-right: 92px;
+  }
+}
+
+/* Step Counter CSS  */
+
+.Home_create_school {
+  width: 100%;
+  padding-top: 130px;
+}
+.Home_create_FlexContainer {
+  width: 94%;
+  flex-direction: column;
+  padding-right: 92px;
+}
+
+/* WORK STEP FOR LARGER SCREEN4 */
+/* WORK STEP FOR LARGER SCREEN */
+/* WORK STEP FOR LARGER SCREEN */
+
+.workProcessStepCounter {
+  display: none;
+  @media (min-width: 700px) {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.workProcessStepline {
+  width: 100%;
+  padding-right: 24px;
+  position: absolute;
+}
+.workProgressInsideLine {
+  width: 100%;
+  height: 200px;
+  margin-right: 160px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+  border-top: 2px dashed #9a9da3;
+  border-right: 2px dashed #9a9da3;
+  border-bottom: 2px dashed #9a9da3;
+}
+.workProcessStepMouseB {
+  width: 100%;
+  position: relative;
+  margin-bottom: 200px;
+}
+.workProcessArrowIcon {
+  position: absolute;
+  left: 170px;
+  bottom: -6px;
+  width: 12px;
+  height: 12px;
+}
+.WorkProcess_stepNumber {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  left: 0;
+  gap: 0;
+  top: -5px;
+}
+.WorkProcess_stepSecond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 45px;
+  background-color: #ffffff;
+}
+.WorkProcess_stepNumberText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background-color: #030918;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 32px;
+}
+.WorkProcess_stepDescription {
+  padding-left: 8px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #686b74;
+}
+
+/* WORK STEP FOR SMALLER SCREEN */
+/* WORK STEP FOR SMALLER SCREEN */
+.wrokProcess_Smallhead {
+  justify-content: center;
+  margin-left: 9px;
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.mantine_Flex_root {
+  padding: 8px 15px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.Home_number_700 {
+  font-size: 16px;
+  color: white;
+}
+.Home_number_500 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #686b74;
+}
+
+.step__counter__dotted_small {
+  border-left: 2px dashed #9a9da3;
+  margin-block: 10px;
+  margin-left: 20px;
+  width: 10px;
+  height: 3.125rem;
+}
+
+.carousellayer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.carouselImage {
+  height: 100%;
+}
+.carouselDiscoverAbsolute {
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+  inset: 0;
+  margin: 32px 24px;
+  color: white;
+  gap: 8px;
+  max-width: 100%;
+  white-space: wrap;
+  text-align: left;
+  overflow-y: hidden;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.carouselButtonText {
+  font-weight: 500;
+}
+.carouselTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.68px;
+}
+.carouselTitleDate {
+  font-size: 14px;
+}

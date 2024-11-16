@@ -3,15 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --progress-size: 10px;
+  --progress-radius: 8px;
+  --progress-section-width: 50%; /* You can dynamically adjust this */
 }
 
 body {

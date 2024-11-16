@@ -1,0 +1,89 @@
+.Download_RootFlexContainer {
+  width: 100%;
+  padding-top: 130px;
+  margin-bottom: 100px;
+  justify-content: center;
+  @media (min-width: 900px) {
+    justify-content: flex-end;
+  }
+}
+
+.downloadFlexContainer {
+  background-color: #e2f3fc;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 40px;
+  padding-top: 36px;
+  height: 100%;
+  width: 90%;
+  flex-direction: column-reverse;
+  @media (min-width: 900px) {
+    margin: 0 92px;
+    flex-direction: row;
+    align-items: flex-end;
+
+    width: 100%;
+  }
+}
+.Download_OrderSecon {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  gap: 50px;
+  width: 100%;
+  @media (min-width: 700px) {
+    width: 640px;
+  }
+}
+.mobileDownloaditle {
+  font-weight: 700;
+  font-size: 28px;
+  width: 100%;
+  line-height: 34px;
+  margin: 0;
+  @media (min-width: 700px) {
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: -2%;
+  }
+}
+
+.DownLoad__store__flex {
+  flex-direction: column;
+  @media (min-width: 700px) {
+    flex-direction: row;
+  }
+}
+
+.downloadGoogleStore,
+.downloadAppleStore {
+  width: 200px;
+  height: 60px;
+}
+.Download_IphoneParent {
+  max-width: 491px;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  width: 100%;
+  width: 250px;
+  justify-content: center;
+
+  @media (min-width: 900px) {
+    margin-right: 20px;
+    width: 491px;
+  }
+}
+.Download_Iphone {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.Download__end__svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
