@@ -1,7 +1,7 @@
 import { Box, Flex, Button, Paper, Progress, Transition } from "@mantine/core";
 import { useRef, useState, useEffect } from "react";
 import { useIntersection } from "@mantine/hooks";
-import classes from "../Pages/home/hero.module.css";
+import classes from "../../Pages/home/hero.module.css";
 
 const CreateSchool = () => {
   return (

@@ -3,6 +3,7 @@
 import { Box, Flex } from "@mantine/core";
 import React from "react";
 import classes from "./Download.module.css";
+import Images from "../Image";
 const Download = () => {
   return (
     <Flex direction="row" className={classes.Download_RootFlexContainer}>
@@ -13,22 +14,19 @@ const Download = () => {
           </p>
 
           <Flex gap="1rem" className={classes.DownLoad__store__flex}>
-            <img
+            <Images
               src="/assests/GoogleStore.png"
-              alt=""
               className={classes.downloadGoogleStore}
             />
-            <img
+            <Images
               src="/assests/AppleStore.png"
-              alt=""
               className={classes.downloadAppleStore}
             />{" "}
           </Flex>
         </Flex>
         <Box className={classes.Download_IphoneParent}>
-          <img
+          <Images
             src="/assests/Iphone.png"
-            alt=""
             className={classes.Download_Iphone}
           />
         </Box>

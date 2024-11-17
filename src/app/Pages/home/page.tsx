@@ -5,13 +5,13 @@ import classes from "./hero.module.css";
 import { Group } from "@mantine/core";
 import Images from "../../components/Image";
 import "@mantine/carousel/styles.css";
-import { FAQ } from "../../components/FAQ";
-import Download from "../../components/Download";
-import Footer from "../../components/Footer";
+import { FAQ } from "../../components/FAQ/FAQ";
+import Download from "../../components/DownLoadHome/Download";
+import Footer from "../../components/FooterHome/Footer";
 import ClassAndResource from "@/app/components/ClassAndResources/ClassAndResource";
-import CreateSchool from "@/app/components/CreateSchool";
+import CreateSchool from "@/app/components/CreateSchoolStepper/CreateSchool";
 import DiscoverCarousel from "@/app/components/DiscoverCarousel/DiscoverCarousel";
-import ConnectedLearning from "@/app/components/ConnectedLearning";
+import ConnectedLearning from "@/app/components/ConnectedLearingHome/ConnectedLearning";
 import HomeHero from "@/app/components/HomeHero/HomeHero";
 import AlgorithmAssist from "@/app/components/AlgorithmAndAssist/AlgorithmAssist";
 const Page = () => {

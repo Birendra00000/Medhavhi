@@ -4,9 +4,10 @@ import { IconArrowRight } from "@tabler/icons-react";
 import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 import classes from "./DiscoverCarousel.module.css";
+import Images from "../Image";
 
 const DiscoverCarousel = () => {
-  const autoplay = useRef(Autoplay({ delay: 1500 }));
+  const autoplay = useRef(Autoplay({ delay: 2000 }));
   return (
     <Flex
       direction="row"
@@ -36,11 +37,8 @@ const DiscoverCarousel = () => {
         >
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Checkup.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay
@@ -71,11 +69,8 @@ const DiscoverCarousel = () => {
           </Carousel.Slide>
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Admission.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay
@@ -108,11 +103,8 @@ const DiscoverCarousel = () => {
           </Carousel.Slide>{" "}
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Checkup.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay
@@ -145,11 +137,8 @@ const DiscoverCarousel = () => {
           </Carousel.Slide>{" "}
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Admission.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay
@@ -183,11 +172,8 @@ const DiscoverCarousel = () => {
           </Carousel.Slide>{" "}
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Checkup.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay
@@ -218,11 +204,8 @@ const DiscoverCarousel = () => {
           </Carousel.Slide>{" "}
           <Carousel.Slide className={classes.carouselContainer}>
             <Box className={classes.carousellayer}>
-              <img
+              <Images
                 src="/assests/Admission.png"
-                alt=""
-                color="transparent"
-                width="100%"
                 className={classes.carouselImage}
               />
               <Overlay

@@ -2,6 +2,7 @@ import { Box, Flex, Button, Paper, Progress, Transition } from "@mantine/core";
 import { useRef, useState, useEffect } from "react";
 import { useIntersection } from "@mantine/hooks";
 import classes from "./classAndresources.module.css";
+import Images from "../Image";
 
 const ClassAndResource = () => {
   const { ref, entry } = useIntersection({
@@ -88,11 +89,11 @@ const ClassAndResource = () => {
           >
             <Box className={classes.secondContWrapper}>
               <Box className={classes.routineImgWrapper}>
-                <img
+                <Images
                   src="/assests/Routine1.jpeg"
                   className={classes.Resources1}
                 />{" "}
-                <img
+                <Images
                   src="/assests/Routine2.jpeg"
                   className={classes.Resources2}
                 />{" "}

@@ -3,6 +3,7 @@ import React from "react";
 import { Flex, Button, Overlay, Box } from "@mantine/core";
 import classes from "../../Pages/home/hero.module.css";
 import { Group } from "@mantine/core";
+import Images from "../Image";
 
 const AlgorithmAssist = () => {
   return (
@@ -21,11 +22,11 @@ const AlgorithmAssist = () => {
           >
             <Box className={classes.secondContWrapper}>
               <Box className={classes.routineImgWrapper}>
-                <img
+                <Images
                   src="/assests/Routine1.jpeg"
                   className={classes.Routine1}
                 />{" "}
-                <img
+                <Images
                   src="/assests/Routine2.jpeg"
                   className={classes.Routine2}
                 />{" "}

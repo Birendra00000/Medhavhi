@@ -21,7 +21,7 @@ const Navbar = () => {
       <Flex className={classes.navbar_container}>
         <Box>
           {" "}
-          <Images src="/assests/logo.png" />
+          <Images src="/assests/logo.png" className={classes.Navbar__logo} />
         </Box>
         <Group gap="sm" className={classes.buttongroupLarge}>
           <Button variant="transparent" color="rgba(0, 0, 0, 1)">

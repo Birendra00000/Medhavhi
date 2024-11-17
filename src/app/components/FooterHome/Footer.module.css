@@ -82,3 +82,7 @@
     min-width: 352px;
   }
 }
+.Footer__logo {
+  width: 128px;
+  height: 32px;
+}

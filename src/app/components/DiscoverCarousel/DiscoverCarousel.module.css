@@ -27,6 +27,8 @@
 
 .carouselImage {
   height: 100%;
+  color: transparent;
+  width: 100%;
 }
 .carouselDiscoverAbsolute {
   z-index: 999;

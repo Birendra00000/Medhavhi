@@ -1,4 +1,10 @@
 /* Responsive Container */
+
+.Navbar__logo {
+  width: 128px;
+  height: 32px;
+}
+
 .responsiveContainer {
   justify-content: center;
   width: 100vw;

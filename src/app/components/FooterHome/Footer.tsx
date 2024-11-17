@@ -3,6 +3,7 @@ import React from "react";
 import { Box, Flex } from "@mantine/core";
 import { Input } from "@mantine/core";
 import classes from "./Footer.module.css";
+import Images from "../Image";
 const Footer = () => {
   return (
     <Box className={classes.FooterListheadContainer}>
@@ -131,7 +132,7 @@ const Footer = () => {
       </Flex>
       <Flex className={classes.lastFooterContainer}>
         <Flex direction="column" gap="md">
-          <img src="/assests/logo.png" alt="" width={128} height={32} />
+          <Images src="/assests/logo.png" className={classes.Footer__logo} />
           <Flex direction="row" gap="xl">
             <p className={classes.footer_list_item}>
               © 2023 Medhavhi. All right reserved.

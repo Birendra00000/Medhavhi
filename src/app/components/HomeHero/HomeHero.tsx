@@ -3,6 +3,7 @@ import React from "react";
 import { Flex, Button, Overlay, Box } from "@mantine/core";
 import { Group } from "@mantine/core";
 import classes from "../../Pages/home/hero.module.css";
+import Images from "../Image";
 const HomeHero = () => {
   return (
     <Flex
@@ -10,7 +11,7 @@ const HomeHero = () => {
       justify="flex-end"
       className={classes.HomeMainFlexWrapper}
     >
-      <Box className={classes.HomeMainFlexContainer}>
+      <Box className={classes.HomeMainFlexLeftPadding}>
         <Flex className={classes.homeMainFlex}>
           <Flex className={classes.homeWidthHalf}>
             <Flex
@@ -59,11 +60,11 @@ const HomeHero = () => {
                 wrap="wrap"
               >
                 <p className={classes.home_hero_Available}>Also Available on</p>
-                <img
+                <Images
                   src="/assests/appstore.jpg"
                   className={classes.appstoreImg}
                 />{" "}
-                <img
+                <Images
                   src="/assests/playstore.png"
                   className={classes.appstoreImg}
                 />{" "}
@@ -71,12 +72,12 @@ const HomeHero = () => {
             </Flex>
           </Flex>
           <Flex direction="row" gap={20} className={classes.homePhotoHead}>
-            <img
+            <Images
               src="/assests/androidSmall.png"
               className={classes.androidSmall}
             />{" "}
             <Flex w="100%" direction="column" justify="flex-start">
-              <img
+              <Images
                 src="/assests/desktophalf.png"
                 className={classes.desktophalf}
               />{" "}
