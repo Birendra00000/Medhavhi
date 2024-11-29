@@ -1,0 +1,35 @@
+.header__content_all {
+  padding: 10px;
+  border-bottom: 3px solid #f8f8f8;
+  width: 100%;
+}
+
+.Header__subject_count {
+  color: #9a9da3;
+  font-size: 12px;
+}
+
+.Subject__Name__Container {
+  padding: 10px;
+}
+.subject__Main__Wrap {
+  background-color: #f8f8f8;
+}
+
+.Subject__FlexBox__Container {
+  padding: 10px;
+}
+
+.subject__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.subject__title {
+  font-size: 15px;
+}
+
+.subject__code {
+  font-size: 14px;
+  color: #686b74;
+}

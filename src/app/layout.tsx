@@ -22,7 +22,7 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </MantineProvider>
       </body>

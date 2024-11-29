@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/carousel": "^7.13.5",
-    "@mantine/core": "^7.13.4",
-    "@mantine/hooks": "^7.13.4",
+    "@mantine/carousel": "^7.14.2",
+    "@mantine/core": "^7.14.2",
+    "@mantine/dates": "^7.14.2",
+    "@mantine/hooks": "^7.14.2",
     "@tabler/icons-react": "^3.21.0",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
     "embla-carousel-autoplay": "^7.1.0",
     "embla-carousel-react": "^7.1.0",
     "next": "^15.0.2",

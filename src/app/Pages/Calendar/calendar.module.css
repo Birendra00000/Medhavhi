@@ -1,0 +1,35 @@
+.calendar_top_container {
+  padding-top: 130px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.calendar_title {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+.calendar__wrap {
+  padding: 15px;
+}
+.Calendar__Footer__button__MarginX {
+  padding: 15px;
+}
+
+.events__container {
+  border: 1px solid rgba(3, 9, 24, 0.15);
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.calendarHeaderControl {
+  order: 3;
+}
+.calendarHeaderLevel {
+  /* font-size: 20px; */
+}
+.levelsGroup {
+  padding: 15px;
+}
