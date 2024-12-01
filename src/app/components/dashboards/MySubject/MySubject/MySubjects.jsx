@@ -7,8 +7,8 @@ import { SimpleGrid } from "@mantine/core";
 import Images from "@/app/components/Image";
 const MySubjects = () => {
   return (
-    <Box>
-      <Flex direction="column">
+    <Box className={classes.subject__MarginX_wrap}>
+      <Flex direction="column" m="20">
         <Flex
           direction="row"
           justify="space-between"

@@ -3,8 +3,8 @@ import React from "react";
 import { Box, Flex, Grid } from "@mantine/core";
 import classes from "./dashboard.module.css";
 import MySubjects from "../../components/dashboards/MySubject/MySubject/MySubjects";
-import CommunityTimeline from "../../components/dashboards/MySubject/CommunityTimeline";
-import Attendance from "../../components/dashboards/MySubject/Attendance";
+import CommunityTimeline from "../../components/dashboards/communityTimeline/CommunityTimeline";
+import Attendance from "../../components/dashboards/Attendance/Attendance";
 
 const page = () => {
   return (
@@ -12,10 +12,10 @@ const page = () => {
       <Grid className={classes.LeftSide__Container}>1 </Grid>
       <Flex direction="column" className={classes.centralSubject__container}>
         <MySubjects />
-        {/* <Flex direction="row">
+        <Flex direction="row" gap="20px">
           <Attendance />
           <CommunityTimeline />
-        </Flex> */}
+        </Flex>
       </Flex>
       <Box className={classes.rightNotification__container}>3 </Box>
     </Box>

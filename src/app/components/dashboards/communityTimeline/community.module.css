@@ -1,0 +1,16 @@
+.Attendee_Margin_x {
+  background-color: white;
+  margin-top: 20px;
+}
+.header__content_all {
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(3, 9, 24, 0.15);
+  width: 100%;
+}
+.attendance__header_date {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  gap: 5px;
+  background-color: #d4eefc;
+}
