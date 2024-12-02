@@ -1,0 +1,19 @@
+.notification__container_wrap {
+  background-color: white;
+  min-height: 360px;
+  border-radius: 10px;
+}
+
+.header__content_all {
+  padding: 13px;
+  border-bottom: 1px solid rgba(3, 9, 24, 0.15);
+  width: 100%;
+}
+.notification_image_banner {
+  width: 112px;
+  height: 72px;
+}
+.notification_updated_date {
+  font-size: 14px;
+  color: #686b74;
+}

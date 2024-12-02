@@ -5,6 +5,8 @@ import classes from "./dashboard.module.css";
 import MySubjects from "../../components/dashboards/MySubject/MySubject/MySubjects";
 import CommunityTimeline from "../../components/dashboards/communityTimeline/CommunityTimeline";
 import Attendance from "../../components/dashboards/Attendance/Attendance";
+import Notification from "../../components/dashboards/Notification/Notification/Notification";
+import Calendars from "../../components/dashboards/Notification/calendar/Calendar";
 
 const page = () => {
   return (
@@ -17,7 +19,10 @@ const page = () => {
           <CommunityTimeline />
         </Flex>
       </Flex>
-      <Box className={classes.rightNotification__container}>3 </Box>
+      <Flex className={classes.rightNotification__container} direction="column">
+        <Notification />
+        <Calendars />
+      </Flex>
     </Box>
   );
 };

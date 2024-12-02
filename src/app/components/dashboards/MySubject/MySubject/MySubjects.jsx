@@ -8,7 +8,7 @@ import Images from "@/app/components/Image";
 const MySubjects = () => {
   return (
     <Box className={classes.subject__MarginX_wrap}>
-      <Flex direction="column" m="20">
+      <Flex direction="column">
         <Flex
           direction="row"
           justify="space-between"

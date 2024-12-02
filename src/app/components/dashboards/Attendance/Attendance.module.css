@@ -1,6 +1,7 @@
 .Attendee_Margin_x {
   background-color: white;
   margin-top: 20px;
+  border-radius: 10px;
 }
 .header__content_all {
   padding: 10px 30px;
