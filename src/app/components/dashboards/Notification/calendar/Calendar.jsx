@@ -6,7 +6,6 @@ import "@mantine/dates/styles.css";
 import classes from "./calendar.module.css";
 import { IconArrowRight } from "@tabler/icons-react";
 import { Box, Button, Flex, Paper } from "@mantine/core";
-import { IoChevronDown } from "react-icons/io5";
 
 const Calendars = () => {
   const upcoming_event_date = [
@@ -54,6 +53,7 @@ const Calendars = () => {
           <Flex
             direction="row"
             justify="space-between"
+            align="center"
             className={classes.header__content_all}
           >
             <Flex direction="column">
@@ -109,7 +109,6 @@ const Calendars = () => {
             classNames={{
               levelsGroup: classes.levelsGroup,
               calendarHeaderControl: classes.calendarHeaderControl,
-
               calendarHeaderLevel: classes.calendarHeaderLevel,
             }}
           />

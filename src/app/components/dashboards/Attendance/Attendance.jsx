@@ -31,7 +31,7 @@ const Attendance = () => {
           <Flex
             direction="row"
             align="center"
-            size="sm"
+            gap="sm"
             className={classes.chartHeader__bgBlue}
           >
             <svg

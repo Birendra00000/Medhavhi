@@ -9,6 +9,7 @@ const Notification = () => {
       <Flex direction="column">
         <Flex
           direction="row"
+          align="center"
           justify="space-between"
           className={classes.header__content_all}
         >
